@@ -11,8 +11,6 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Building the project..."'
-                # If you have a build step, add it here
-                # e.g., npm install, mvn clean package, etc.
             }
         }
 
